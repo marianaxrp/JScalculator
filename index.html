@@ -3,30 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <title>Calculadora</title>
 </head>
 <body>
     <div class="container">
         <div class="calculator">
-            <div class="display">0</div>
+            <input type="text" class="display" value="" disabled>
             <div class="keys">
-                <button class="operatorButton">+</button>
-                <button class="operatorButton">-</button>
-                <button class="operatorButton">&times;</button>
-                <button class="operatorButton">&divide;</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>0</button>
-                <button class="decimal">.</button>
-                <button class="allClear">AC</button>
-                <button class="equalButton">=</button>
+                <button type="button" value="+" class="operatorButton">+</button>
+                <button type="button" value="-" class="operatorButton">-</button>
+                <button type="button" value="*" class="operatorButton">&times;</button>
+                <button type="button" value="/" class="operatorButton">&divide;</button>
+                <button type="button" value="7">7</button>
+                <button type="button" value="8">8</button>
+                <button type="button" value="9">9</button>
+                <button type="button" value="4">4</button>
+                <button type="button" value="5">5</button>
+                <button type="button" value="6">6</button>
+                <button type="button" value="1">1</button>
+                <button type="button" value="2">2</button>
+                <button type="button" value="3">3</button>
+                <button type="button" value="0">0</button>
+                <button type="button" value="." class="decimal">.</button>
+                <button type="button" value="allClear" class="allClear">AC</button>
+                <button type="button" value="=" class="equalButton">=</button>
             </div>
         </div>
     </div>    
